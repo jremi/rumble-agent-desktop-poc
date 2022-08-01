@@ -4,7 +4,7 @@
 
 > **NOTICE:** This is only a proof of concept (PoC) designed to experiment with the [Rumble](https://rumble.run) agent background service process.
 
-<img src="https://i.imgur.com/5XjEVvf.gif" width="600"/>
+<img src="https://i.imgur.com/5XjEVvf.gif" style="max-width: 600px;" />
 
 # Proof of Concept (PoC)
 For fun, I hacked together a desktop user-interface utility for interacting with the Rumble agent CLI application service. The utility is able to connect to the `rumble-agent` background process and extract the agent license details "tag". In addition, provides graphical buttons triggering service level actions (e.g: `restart`, `uninstall`). The utility runs in the operating systems task tray with a small Rumble icon. When the icon is tapped the user is provided with a small Rumble agent status indicator (e.g: Online, Offline), and Control Panel option.
