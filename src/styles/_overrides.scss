@@ -1,0 +1,25 @@
+html, body {
+    font-family: 'Inter', Helvetica, sans-serif !important;
+    background-color: $rumble-brand-body-bg;
+}
+
+.snotify-prompt {
+    background-color: $rumble-brand-primary-blue !important;
+}
+
+.btn-warning,
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning:visited,
+.btn-warning:focus {
+    background-color: $rumble-brand-warning !important;
+    border-color: $rumble-brand-warning !important;
+    color: white !important;
+}
+
+.accordion {
+    button {
+        background-color: $rumble-brand-accordion !important;
+        border-color: $rumble-brand-accordion !important;
+    }
+}
